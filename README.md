@@ -8,7 +8,7 @@
 4. Image Gallery &nbsp;&nbsp;&nbsp; `git checkout master`
 5. Login Modal &nbsp;&nbsp;&nbsp; `git checkout master`
 6. Clipboard Website &nbsp;&nbsp;&nbsp; `git checkout clipboard-website`
-7. Loopstudios Website
+7. Loopstudios Website &nbsp;&nbsp;&nbsp; `git checkout loopstudios-website`
 8. Shortly Website
 9. Testimonial Grid Website
 10. Fylo Website

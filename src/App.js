@@ -8,8 +8,8 @@ const PriceGrid = React.lazy(() => import("./components/PriceGrid"));
 const ProductModal = React.lazy(() => import("./components/ProductModal"));
 const ImageGallery = React.lazy(() => import("./components/ImageGallery"));
 const LoginModal = React.lazy(() => import("./components/LoginModal"));
-const ClipboardWebsite = React.lazy(() =>
-  import("./components/Clipboard/Index")
+const LoopStudiosPage = React.lazy(() =>
+  import("./components/Loopstudios/Index")
 );
 const NoMatch = React.lazy(() => import("./components/NoMatch"));
 
@@ -67,10 +67,10 @@ function App() {
             }
           />
           <Route
-            path="clipboard-website"
+            path="loopstudios-website"
             element={
               <React.Suspense fallback={<PageLoader />}>
-                <ClipboardWebsite />
+                <LoopStudiosPage />
               </React.Suspense>
             }
           />

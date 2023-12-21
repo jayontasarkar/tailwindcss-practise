@@ -54,10 +54,10 @@ const HomePage = () => {
         <ul className="flex gap-5">
           <li>
             <Link
-              to="/clipboard-website"
+              to="/loopstudios-website"
               className="text-blue-500 hover:text-blue-700 transition-all hover:underline underline-offset-4"
             >
-              Clipboard Website
+              Loopstudios Website
             </Link>
           </li>
         </ul>
